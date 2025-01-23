@@ -11,6 +11,9 @@ public class App {
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
+
+        Honeybee bee = new Honeybee();
+        pollObj(bee);
         
                 // output(queen.doYourJob());
                 // output(queen.fly());
